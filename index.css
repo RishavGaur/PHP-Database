@@ -1,0 +1,46 @@
+table{
+    width: 100%;
+    border: 2px solid grey;
+}
+table th{
+    background-color: black;
+    color:white;
+    font-weight: 500;
+}
+table th,td{
+    padding:10px;
+}
+table tr{
+    text-align: center;
+    border:2px solid grey;
+}
+
+.edit{
+    margin-right: 8px;
+    padding:3px 10px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color:white;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.delete{
+    padding:3px 10px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color:white;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.edit:hover{
+    background-color: rgb(236, 155, 4);
+    text-decoration: underline;
+    transition: .2s ease-in;
+}
+.delete:hover{
+    background-color: rgb(222, 9, 9);
+    text-decoration: underline;
+    transition: .2s ease-in;
+}
